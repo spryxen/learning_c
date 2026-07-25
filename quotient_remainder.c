@@ -7,10 +7,14 @@ int main(void) {
   printf("Enter dividend and quotient respectively: ");
   scanf("%d %d", &dividend, &divisior);
 
-  quotient = dividend / divisior;
-  remainder = dividend % divisior;
+  if(!divisior) {
+    printf("Divide by zero error.\n");
+  }else {
+    quotient = dividend / divisior;
+    remainder = dividend % divisior;
 
-  printf("Quotient = %d, Remainder = %d.\n", quotient, remainder);
+    printf("Quotient = %d, Remainder = %d.\n", quotient, remainder);
+  }
 
   return 0;
 
