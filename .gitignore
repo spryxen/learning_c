@@ -18,3 +18,4 @@ print_1_to_10
 print_reverse_by_2
 sum_of_digits
 product_of_digits
+factorial
