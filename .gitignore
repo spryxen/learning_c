@@ -24,3 +24,5 @@ print_1_to_10_do_while
 count_digits
 sum_of_digits_do_while
 print_1_to_10_for_loop
+print_reverse_by_two_for_loop
+multiply_without_star
