@@ -6,3 +6,4 @@ set(CMAKE_C_STANDARD 23)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 add_executable(01_practice 01_practice.c)
+add_executable(02_practice 02_practice.c)
